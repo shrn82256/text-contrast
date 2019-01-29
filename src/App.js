@@ -65,7 +65,7 @@ class App extends Component {
         <div>
           <span>Choose a color:</span>
           &ensp;
-          <input type="color" onChange={ this.handleColorChange } value={ this.state.bgColor } />
+          <input type="color" onChange={ this.handleColorChange } value={ this.state.bgColor } style={{ backgroundColor: this.state.fontColor }} />
         </div>
       </div>
     );
